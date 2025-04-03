@@ -8,7 +8,7 @@ const COLOR_HEX_REGEX = /#[0-9a-fA-F]+/gi;
 /**
  * Regex to match sections in a text where a color should be highlighted
  */
-const COLOR_SECTION_REGEX = /(css|html)`([\s\S]*?)`/gi;
+const COLOR_SECTION_REGEX = /(css|html|dom)`([\s\S]*?)`/gi;
 
 /**
  * Convert "rgba" to "hex"
